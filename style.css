@@ -19,6 +19,13 @@ h2 {
   font-family: 'Merriweather', serif;
 }
 
+h3 {
+  position: absolute;
+  font-size: 24px;
+  font-family: 'Homemade Apple', cursive;
+  color: #264de4;
+}
+
 p {
   font-size: 16px;
   margin-bottom: 40px;
@@ -126,10 +133,26 @@ i:hover {
   vertical-align: middle;
 }
 
+#header-welcome {
+  left: 25px;
+}
+
+#header-photo {
+  top: 300px;
+  right: 10px;
+}
+
+#header-stuff {
+  left: 40px;
+}
+
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
 h2 {
   font-size: 24px;
+}
+h3 {
+  display: none;
 }
 .img-circle {
   width: 300px;
