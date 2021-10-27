@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Lora:ital,wght@0,400;0,600;1,500&family=Merriweather&display=swap');
+
+body {
+  /* background-color: #f0f0f0; */
+  background-color: #f0f0f0;
+  background-size: 36px 36px;
+  background-image:  repeating-linear-gradient(0deg, #70D7BD, #70D7BD 1.8px, #f0f0f0 1.8px, #f0f0f0);
+  font-family: 'Lora', serif;
+  color: #0E161B;
+}
+
+h1 {
+  font-size: 32px;
+  font-family: 'Homemade Apple', cursive;
+}
+
+h2 {
+  font-size: 20px;
+  font-family: 'Merriweather', serif;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 40px;
+  line-height: 2em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  background-color: #3A8092;
+  color: rgb(240, 240, 240);
+  border-radius: 2px;
+  transition: 0.25s ease-in-out;
+}
+
+a:hover {
+  background-color: #70D7BD;
+  transition: 0.25s ease-in-out;
+}
+
+i {
+  color: #0E161B;
+  transition: 0.25s ease-in-out;
+  font-size: 30px;
+}
+
+i:hover {
+  color: #84DCC6;
+  transition: 0.25s ease-in-out;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.card-paper {
+  background-color: #f0f0f0;
+  padding: 30px;
+  margin: 40px;
+  border: solid #fafafa 4px;
+  border-radius: 4px;
+  box-shadow: 5px 5px 0.5px #0E161B;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.img-circle {
+  width: 200px;
+  border: solid 5px #fafafa;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.btn-grey {
+  padding: 10px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline li i {
+  font-size: 40px;
+}
+
+#btn-box {
+  margin: 40px 0 20px 0;
+}
+
+#ruby-icon {
+  color: #820c02;
+  vertical-align: middle;
+}
+
+#javascript-icon {
+  color: #f0db4f;
+  vertical-align: middle;
+}
+
+#html-icon {
+  color: #e34c26;
+  vertical-align: middle;
+}
+
+#css-icon {
+  color: #264de4;
+  vertical-align: middle;
+}
+
+#sqlite-icon {
+  color: #87cefa;
+  vertical-align: middle;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+h2 {
+  font-size: 24px;
+}
+.img-circle {
+  width: 300px;
+}
+}
