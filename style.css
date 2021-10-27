@@ -24,6 +24,7 @@ h3 {
   font-size: 24px;
   font-family: 'Homemade Apple', cursive;
   color: #264de4;
+  transition: 0.5s ease-in-out;
 }
 
 p {
@@ -152,7 +153,8 @@ h2 {
   font-size: 24px;
 }
 h3 {
-  display: none;
+  opacity: 0;
+  transition: 0.5s ease-in-out;
 }
 .img-circle {
   width: 300px;
