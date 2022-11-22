@@ -105,6 +105,10 @@ i:hover {
   font-size: 40px;
 }
 
+.list-inline li a {
+  background-color: transparent;
+}
+
 #btn-box {
   margin: 40px 0 20px 0;
 }
